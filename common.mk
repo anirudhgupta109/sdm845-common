@@ -71,6 +71,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AntHalService
 
+# AOSiP Device Settings
+PRODUCT_PACKAGES += \
+    DeviceSettings
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
@@ -190,7 +194,6 @@ PRODUCT_PACKAGES += \
 
 # tri-state-key
 PRODUCT_PACKAGES += \
-    KeyHandler \
     tri-state-key_daemon
 
 # Update engine
